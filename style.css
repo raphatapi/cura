@@ -1,0 +1,75 @@
+body{
+    margin:0;
+  }
+  
+  #background{
+    display:block;
+    position:fixed;
+    width:100%;
+    height:100%;
+    background-color: #ffffff;
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 1%,#0095da 200%);
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 1%,#0095da 200%);
+    background: -ie-radial-gradient(center, ellipse cover, #ffffff 1%,#0095da 200%);
+  }
+  
+  #logocontainer{
+    display:block;
+    position:fixed;
+    top:50%;
+    left:50%;
+    width:50vh;
+    height:50vh;
+    margin-left:-27vh;
+    margin-top:-27vh;
+    overflow:hidden;
+    transition:background-color 500ms;
+    cursor:pointer;
+  }
+  
+  #pelogo{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: absolute;
+    left: 2vh;
+    top: 2vh;
+    width: 46vh;
+    height: 46vh;
+    background: #ffffff;
+    /* background: -moz-linear-gradient(-45deg, #34324b 0%, #161222 100%);
+    background: -webkit-linear-gradient(-45deg, #34324b 0%,#161222 100%);
+    background: linear-gradient(135deg, #34324b 0%,#161222 100%); */
+    background-size: contain;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25vh;
+    font-weight: 100;
+    color: #3ebffa;
+    text-align: center;
+    line-height: 22vh;
+  }
+  
+  .loader{
+    display:block;
+    position:absolute;
+    background-color:#3ebffa;
+  }
+  
+  @keyframes slide1{
+    50%{width:50vh; margin-left:0;}
+    100%{margin-left:50vh;}
+  }
+  
+  @keyframes slide2{
+    50%{height:50vh; margin-top:0;}
+    100%{margin-top:50vh;}
+  }
+  
+  @keyframes slide3{
+    50%{width:50vh; margin-right:0;}
+    100%{margin-right:50vh;}
+  }
+  
+  @keyframes slide4{
+    50%{height:50vh; margin-bottom:0}
+    100%{margin-bottom:50vh;}
+  }
