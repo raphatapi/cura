@@ -31,10 +31,10 @@ body{
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
-    left: 2vh;
-    top: 2vh;
-    width: 46vh;
-    height: 46vh;
+    left: 1vh;
+    top: 1vh;
+    width: 48vh;
+    height: 48vh;
     background: #ffffff;
     /* background: -moz-linear-gradient(-45deg, #34324b 0%, #161222 100%);
     background: -webkit-linear-gradient(-45deg, #34324b 0%,#161222 100%);
@@ -42,10 +42,10 @@ body{
     background-size: contain;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 25vh;
-    font-weight: 100;
+    font-weight: 200;
     color: #3ebffa;
     text-align: center;
-    line-height: 22vh;
+    line-height: 24vh;
   }
   
   .loader{
